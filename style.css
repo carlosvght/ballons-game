@@ -1,3 +1,13 @@
+#home {
+  text-align: center;
+  margin-top: 200px;
+}
+
+#game {
+  margin-left: 500px;
+  margin-top: 200px;
+}
+
 #bg {
   float: left;
   width: auto;

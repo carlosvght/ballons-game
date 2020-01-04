@@ -16,7 +16,7 @@ function startGame() {
   }
   document.getElementById('timer').innerHTML = seconds;
 
-  var amtBalloons = 20;
+  var amtBalloons = 50;
   createBalloons(amtBalloons);
 
   document.getElementById('balloons_rmg').innerHTML = amtBalloons;
