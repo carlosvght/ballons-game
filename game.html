@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
+	<title>Estourando Balões</title>
+</head>
+
+<body onload="startGame()">
+
+	<div id="bg">
+		<table>
+			<tr>
+				<td>
+					<img src="imagens/balao_azul_grande.png">
+				</td>
+				<td>
+					<span id="balloons_rmg"></span>
+				</td>
+			</tr>
+		</table>
+
+		<br>
+		<table>
+			<tr>
+				<td>
+					<img src="imagens/balao_azul_grande_estourado.png" />
+				</td>
+				<td>
+					<span id="balloons_pop"></span>
+				</td>
+			</tr>
+		</table>
+
+		<br>
+		<table id="tbl">
+			<tr>
+				<td id="countdown"><span id="timer"></span></td>
+			</tr>
+		</table>
+
+	</div>
+
+	<div id="scenario">
+	</div>
+
+	<script src="game.js"></script>
+
+</body>
+
+</html>

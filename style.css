@@ -1,0 +1,29 @@
+#bg {
+  float: left;
+  width: auto;
+  height: 500px;
+  background: #FFF;
+  border: solid 1px #A2A2A2
+}
+
+#tbl {
+  width: 140px;
+  height: 132px;
+}
+
+#countdown {
+  background: url('imagens/cronometro.png');
+  text-align: center;
+}
+
+#scenario {
+  float: left;
+  width: 600px;
+  height: 500px;
+  background: url('imagens/cenario.png');
+  background-position: bottom;
+}
+
+#balloons_rmg, #balloons_pop {
+  font-size: 40px;
+}
